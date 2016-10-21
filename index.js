@@ -1,19 +1,12 @@
-import tweenState from 'react-tween-state';
 import NativeButton from './NativeButton';
-import styles from './styles';
-
+import React from 'react';
+var tweenState = require('react-tween-state')
+import {PanResponder, TouchableHighlight, StyleSheet, Text, View} from 'react-native';
+var styles = require('./styles.js')
 import React, {
   Component,
   PropTypes,
 } from 'react';
-
-import {
-  PanResponder,
-  TouchableHighlight,
-  StyleSheet,
-  Text,
-  View,
-} from 'react-native';
 
 const SwipeoutBtn = React.createClass({
 
